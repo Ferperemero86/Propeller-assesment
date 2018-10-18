@@ -80,6 +80,7 @@ li :hover {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+
 }
 
 .accordion-container li {
@@ -119,9 +120,15 @@ li :hover {
 
 .accordion-container li div p {
     padding: 5%;
-    line-height:1.2em;
-    font-size: 0.8em;
-    color: #817F85;
+    line-height: 1.2em;
+    font-size: 0.65em;
+    color: #908e90;
+}
+
+@media screen and (min-width: 500px) {
+	  .accordion-container li div p {
+			 font-size: 1em;
+		}
 }
 
 
@@ -143,8 +150,8 @@ li :hover {
 
 
     .accordion-container li  p, .accordion-container li .show {
-        line-height:1.8em;
-        font-size: 1.6em;
+        line-height: 2em;
+        font-size: 1.5em;
     }
 
 }
